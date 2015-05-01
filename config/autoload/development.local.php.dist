@@ -1,0 +1,17 @@
+<?php
+
+return array(
+    'doctrine' => array(
+        'configuration' => array(
+            'orm_default' => array(
+                //DEVELOMPENT MODE
+                'generate_proxies'  => true,
+
+                //brak cache
+                'metadata_cache' => 'array',
+                'query_cache'    => 'array',
+                'result_cache'   => 'array',
+            ),
+        ),
+    ),
+);

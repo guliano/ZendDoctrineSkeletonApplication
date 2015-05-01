@@ -1,0 +1,31 @@
+{
+    "name": "estoria/goodyear-fleet",
+    "description": "Obsługa relokacji dla Goodyear",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2",
+        "goodyear",
+        "relocations",
+        "fleet"
+    ],
+    "homepage": "http://estoria.pl",
+    "config": {
+        "process-timeout": 5000
+    },
+    "require": {
+        "php": ">=5.4.8",
+        "zendframework/zendframework": "~2.4",
+        "zfcampus/zf-development-mode": "~2.0",
+        "zf-commons/zfc-user": "1.2.*",
+        "zf-commons/zfc-user-doctrine-orm": "1.0.*",
+        "zf-commons/zfc-rbac": "~2.0",
+        "doctrine/doctrine-orm-module": "0.8.*",
+        "doctrine/migrations": "*@alpha"
+    },
+    "require-dev": {
+        "zendframework/zftool": "dev-master",
+        "zendframework/zend-developer-tools": "dev-master",
+        "zfcampus/zf-deploy": "~1.0"
+    }
+}
